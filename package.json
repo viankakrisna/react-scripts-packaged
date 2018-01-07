@@ -1,0 +1,30 @@
+{
+	"private": true,
+	"scripts": {
+		"start": "cd ./test && npm install && npm start",
+		"package": "pkg . --out-path packaged --debug"
+  },
+  "pkg": {
+    "assets": "node_modules/**/*"
+  },
+	"bin": {
+		"react-scripts-packaged": "./bin/react-scripts-packaged.js"
+	},
+	"name": "react-scripts-packaged",
+	"description": "Packaged react-scripts",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/viankakrisna/create-react-app.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/viankakrisna/create-react-app/issues"
+	},
+	"homepage": "https://github.com/viankakrisna/create-react-app#readme",
+	"devDependencies": {
+    "pkg": "^4.3.0-beta.5",
+		"react-scripts": "^1.0.17"
+	}
+}
