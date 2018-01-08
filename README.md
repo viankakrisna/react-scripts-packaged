@@ -10,3 +10,5 @@ How to use:
   - `react-scripts test --env=jsdom` to `./react-scripts-packaged-macos test --env=jsdom`
 
 Feel free to report any bugs or pr for improvements!
+
+the npm package exists solely for placeholder, I need to figure out how to publish this to npm correctly :D
