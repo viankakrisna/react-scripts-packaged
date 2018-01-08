@@ -1,5 +1,4 @@
 {
-	"private": true,
 	"scripts": {
 		"start": "cd ./test && npm install && npm start",
 		"package": "pkg . --out-path packaged --debug"
