@@ -4,6 +4,9 @@
 		"start": "cd ./test && npm install && npm start",
 		"package": "pkg . --out-path packaged --debug"
   },
+  "files": [
+    "README.md"
+  ],
   "pkg": {
     "assets": "node_modules/**/*"
   },
