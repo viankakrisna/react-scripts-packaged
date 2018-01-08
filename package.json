@@ -14,7 +14,7 @@
 	},
 	"name": "react-scripts-packaged",
 	"description": "Packaged react-scripts",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/viankakrisna/react-scripts-packaged.git"
