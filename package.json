@@ -2,13 +2,13 @@
 	"scripts": {
 		"start": "cd ./test && npm install && npm start",
 		"package": "pkg . --out-path packaged --debug"
-  },
-  "files": [
-    "README.md"
-  ],
-  "pkg": {
-    "assets": "node_modules/**/*"
-  },
+	},
+	"files": [
+		"README.md"
+	],
+	"pkg": {
+		"assets": "node_modules/**/*"
+	},
 	"bin": {
 		"react-scripts-packaged": "./bin/react-scripts-packaged.js"
 	},
@@ -26,7 +26,7 @@
 	},
 	"homepage": "https://github.com/viankakrisna/react-scripts-packaged#readme",
 	"devDependencies": {
-    "pkg": "^4.3.0-beta.5",
-		"react-scripts": "^1.0.17"
+		"pkg": "^4.3.0-beta.5",
+		"react-scripts": "^2.1.5"
 	}
 }
